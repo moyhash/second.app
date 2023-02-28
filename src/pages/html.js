@@ -8,9 +8,14 @@ const Html = () => {
 
       <Header />
       
-      <body bgcolor="red">
+      <body bgcolor="black">
 
-      <h1>React Html Page </h1>
+      <h2>React Html Page </h2>
+      <div className="embedresize">
+      <iframe src="https://www.youtube.com/embed/1sX18q2VAT0"  frameborder="1" allowFullScreen="1" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"       
+      title="This is a unique title" onScroll="auto"  width="800" height="600"></iframe>
+      </div>
       </body>
     
 

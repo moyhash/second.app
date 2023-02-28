@@ -1,5 +1,3 @@
-
-
 nav {
   background-color: #333;
 }
@@ -96,11 +94,11 @@ footer p {
   margin: 0;
 }
 
-.main-link{
+.main-link {
   padding: 10px 14px;
 }
 
-.main-link.active{
+.main-link.active {
   background-color: rgb(82, 159, 99);
   box-shadow: 0 0 5px rgb(215, 118, 61);
 }
@@ -116,3 +114,11 @@ img {
   pointer-events: none;
 }*/
 
+.embedresize {
+  max-width: 560px;
+  margin: auto;
+}
+
+iframe {
+  border-radius: 15px;
+}
