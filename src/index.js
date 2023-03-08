@@ -2,8 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 //import App from "./App";
-import Home from './pages/home';
-import HTML from './pages/html'
+import Home from "./pages/home";
+import HTML from "./pages/html";
+import Rrror from "./pages/error";
 ///////////React Router //////////////////////
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -12,7 +13,11 @@ const router = createBrowserRouter([
     path: "/", // Index page
     //element: <div>Hello world!</div>,
     element: <Home />, // Home Page
-    errorElement: <h3>Ooops Page not Found!!!!</h3> // eroor page
+
+    // Error page ou bien eroor message
+    //errorElement: <h3>Ooops Page not Found!!!!</h3>,//
+    errorElement:  <Rrror />,
+
   },
 
   {
